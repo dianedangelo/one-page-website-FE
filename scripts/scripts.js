@@ -16,8 +16,40 @@
 
 	});
 
-		$(".fancybox").fancybox();
+		$('.fancybox').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
 
+        	$('.fancybox2').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
+
+            $('.fancybox3').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
+			$('.fancybox4').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
+
+        	$('.fancybox5').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
+
+            $('.fancybox6').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
 ///////////////////////////////////////////
 
 
