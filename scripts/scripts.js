@@ -16,6 +16,26 @@
 
 	});
 
+
+    
+////////for paralax/////////////////////
+    $.stellar();
+
+    // $(function(){
+    //     $(.stellar(){
+    //     horizontalScrolling: false,
+    //     verticalOffset: 40
+    //     });
+    // });
+
+
+////////////////fancybox//////////////////
+   	$('.fancybox').fancybox({
+            padding : 15,
+            openEffect  : 'elastic',
+            closeBtn: true
+        });
+
 	$(".fancybox2")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -38,18 +58,24 @@
         }
     });
 
+        	$(".fancybox5")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
 
-        	$('.fancybox5').fancybox({
-            padding : 15,
-            openEffect  : 'elastic',
-            closeBtn: true
-        });
+        	$(".fancybox6")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
 
-            $('.fancybox6').fancybox({
-            padding : 15,
-            openEffect  : 'elastic',
-            closeBtn: true
-        });
+
+
 ///////////////////////////////////////////
 
 

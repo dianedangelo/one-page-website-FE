@@ -40,7 +40,7 @@
 			changeHash: false,
 			easing: 'swing',
 			filter: '',
-			scrollSpeed: 750,
+			scrollSpeed: 2050,
 			scrollThreshold: 0.5,
 			begin: false,
 			end: false,
@@ -211,6 +211,24 @@
 			this.$win.unbind('scroll.onePageNav');
 		}
 	};
+
+$(window).on("scroll",function(){
+    
+    if(window.scrollY < 425){
+        $("nav").css("background-color","rgba(38, 91, 192,.75)");
+    }
+
+    else if(window.scrollY < 2050){
+        $("nav").css("background-color","rgba(147, 203, 64,.75)" );
+    }
+    else if(window.scrollY < 2471){
+        $("nav").css("background-color","rgba(254,150,59,.75)" );
+    }
+    else{
+        $("nav").css("background-color","rgba(254,114,59,.75)" );
+    }
+ });
+
 
 	OnePageNav.defaults = OnePageNav.prototype.defaults;
 
