@@ -215,7 +215,7 @@
 $(window).on("scroll",function(){
     
     if(window.scrollY < 425){
-        $("nav").css("background-color","rgba(38, 91, 192,.75)");
+        $("nav").css("background-color","rgba(1,112,167,1)");
     }
 
     else if(window.scrollY < 2050){
