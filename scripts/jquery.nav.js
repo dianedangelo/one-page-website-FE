@@ -40,7 +40,7 @@
 			changeHash: false,
 			easing: 'swing',
 			filter: '',
-			scrollSpeed: 2050,
+			scrollSpeed: 1050,
 			scrollThreshold: 0.5,
 			begin: false,
 			end: false,
@@ -214,15 +214,15 @@
 
 $(window).on("scroll",function(){
     
-    if(window.scrollY < 425){
-        $("nav").css("background-color","rgba(1,112,167,1)");
+    if(window.scrollY < 577){
+        $("nav").css("background-color","rgba(9,0,229,1)");
     }
 
-    else if(window.scrollY < 2050){
-        $("nav").css("background-color","rgba(147, 203, 64,.75)" );
+    else if(window.scrollY < 1427){
+        $("nav").css("background-color","rgba(0,112,167,1)" );
     }
     else if(window.scrollY < 2471){
-        $("nav").css("background-color","rgba(254,150,59,.75)" );
+        $("nav").css("background-color","rgba(237,27,36,1)" );
     }
     else{
         $("nav").css("background-color","rgba(254,114,59,.75)" );
