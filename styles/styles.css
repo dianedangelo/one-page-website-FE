@@ -46,7 +46,7 @@ img {
 .resumeCopy{
 	position:relative;
 	width:60%;
-	top:100px;
+	top:50px;
 	left:190px;
 }
 
@@ -203,8 +203,8 @@ a:active {
 .image3_background {
 	padding:0px;
 	width:100%;
-	height:2500px;
-	background-repeat: repeat;
+	height:1100px;
+	background-repeat: no-repeat;
 	background-image: url(../images/work/NEWTBWAbackground.jpg);
 }
 
@@ -212,8 +212,8 @@ a:active {
 .image4_background {
 	padding:0px;
 	width:100%;
-	height:300px;
-	background-repeat: repeat;
-	background-image: url(../images/patterns/skulls.png);
+	height:1100px;
+	background-repeat: no-repeat;
+	background-image: url(../images/WORK/NEWDENTSUbackground.jpg);
 }
 

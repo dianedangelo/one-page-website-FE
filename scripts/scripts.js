@@ -71,7 +71,7 @@ $(".link").on("click",function(e){
             openEffect  : 'elastic',
             closeBtn: true
         });
-
+// Accenture
 	$(".fancybox2")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -79,6 +79,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
+// bein Sports
     	$(".fancybox3")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -86,6 +87,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
+// BNY Mellon
     	$(".fancybox4")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -93,7 +95,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
-
+// ////////////////////////////////not used
         	$(".fancybox5")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -101,7 +103,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
-
+// Ethicon
         	$(".fancybox6")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -110,7 +112,14 @@ $(".link").on("click",function(e){
         }
     });
 
-
+// Hearts on Fire
+            $(".fancybox7")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
 
 ///////////////////////////////////////////
 
