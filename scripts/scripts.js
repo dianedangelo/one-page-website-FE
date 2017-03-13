@@ -95,7 +95,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
-// ////////////////////////////////not used
+// ///Ethicon
         	$(".fancybox5")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -103,7 +103,7 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
-// Ethicon
+// Hearts on Fire
         	$(".fancybox6")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -112,7 +112,7 @@ $(".link").on("click",function(e){
         }
     });
 
-// Hearts on Fire
+// Jameson
             $(".fancybox7")
     .attr('rel', 'gallery01')
     .fancybox({
@@ -121,6 +121,61 @@ $(".link").on("click",function(e){
         }
     });
 
+// McDonalds
+            $(".fancybox8")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+// Michelin
+            $(".fancybox9")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+// NBC
+            $(".fancybox10")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+// Nissan
+            $(".fancybox11")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+
+// SAP
+            $(".fancybox12")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+
+// TR
+            $(".fancybox13")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
 ///////////////////////////////////////////
 
 
