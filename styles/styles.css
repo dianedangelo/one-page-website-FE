@@ -7,7 +7,7 @@ section{
 	min-height: 100vh;
 	min-width:10%;
 	margin:0px;
-	padding-bottom:100px;
+	padding-bottom:700px;
 }
 
 h1{
@@ -186,7 +186,6 @@ a:active {
 	padding:0px;
 	width:100%;
 	height:600px;
-	/*box-shadow:  0px 10px 10px #888888;*/
 	background-repeat: repeat;
 	background-image: url(../images/work/halftone.png);
 }
@@ -203,7 +202,7 @@ a:active {
 .image3_background {
 	padding:0px;
 	width:100%;
-	height:950px;
+	height:850px;
 	background-repeat: no-repeat;
 	background-image: url(../images/work/NEWTBWAbackground.jpg);
 }
@@ -212,8 +211,17 @@ a:active {
 .image4_background {
 	padding:0px;
 	width:100%;
-	height:1100px;
+	height:600px;
 	background-repeat: no-repeat;
 	background-image: url(../images/WORK/NEWDENTSUbackground.jpg);
 }
 
+
+
+.image5_background {
+	padding:0px;
+	width:100%;
+	height:1100px;
+	background-repeat: no-repeat;
+	background-image: url(../images/WORK/NewTenga.jpg);
+}
