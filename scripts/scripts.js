@@ -176,6 +176,44 @@ $(".link").on("click",function(e){
             this.title = $(this.element).attr('caption');
         }
     });
+
+
+// Canon cameras
+            $(".fancybox14")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+// Canon Copiers
+            $(".fancybox15")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+
+// HarperCollins
+            $(".fancybox16")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
+
+// JVC
+            $(".fancybox17")
+    .attr('rel', 'gallery01')
+    .fancybox({
+        beforeLoad: function() {
+            this.title = $(this.element).attr('caption');
+        }
+    });
 ///////////////////////////////////////////
 
 
